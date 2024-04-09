@@ -17,8 +17,38 @@ Welcome to Decentralized Drive, a blockchain-based storage solution that allows 
 ## Getting Started
 
 To get started with Decentralized Drive, clone the repository and follow the setup instructions below.
+Certainly! Below are the setup instructions for the **Decentralized Drive** project:
 
-```bash
-git clone https://github.com/rajsoni77/Decentralized-Drive.git
-cd Decentralized-Drive
-# Follow setup instructions
+1. **Clone the Repository**:
+   - Open your terminal or command prompt.
+   - Run the following command to clone the repository:
+     ```bash
+     git clone https://github.com/rajsoni77/Decentralized-Drive.git
+     cd Decentralized-Drive
+     ```
+
+2. **Install Dependencies**:
+   - Make sure you have **Node.js** and **npm** installed.
+   - Install project dependencies by running:
+     ```bash
+     npm install
+     ```
+
+3. **Configure Metamask**:
+   - Install the **Metamask** browser extension if you haven't already.
+   - Connect Metamask to the desired Ethereum network (e.g., Rinkeby, Ropsten, etc.).
+
+4. **Deploy Smart Contracts**:
+   - Deploy the smart contracts to the Ethereum network using **Hardhat**.
+   - Update the contract addresses in the UI code.
+
+5. **Run the Application**:
+   - Start the React app:
+     ```bash
+     npm start
+     ```
+   - Access the app in your browser at `http://localhost:3000`.
+
+6. **Upload and Share Images**:
+   - Use the app to upload images to IPFS via **Pinata**.
+   - Share the image URLs with others.
